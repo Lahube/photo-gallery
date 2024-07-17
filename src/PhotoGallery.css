@@ -1,0 +1,40 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .photo-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .photo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .photo-info {
+    padding: 10px;
+  }
+  
+  .photo-info h3 {
+    font-size: 1rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  .photo-info p {
+    margin: 5px 0 0;
+    color: #777;
+  }
+  
